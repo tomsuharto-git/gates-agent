@@ -19,6 +19,10 @@ const layers = [
     name: 'Identity',
     description: 'No cultural signal for "I care about this." No mustache, no wristband, no red nose. Invisible values don\'t compound.',
   },
+  {
+    name: 'Politics',
+    description: 'When something gets coded as a political issue, it divides the people who would otherwise agree. Child survival has been dragged into partisan crossfire — and the Gates Foundation name itself has become polarizing. The brand can\'t be the face of the movement.',
+  },
 ];
 
 export function SectionChallenge() {
