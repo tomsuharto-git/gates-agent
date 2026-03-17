@@ -78,6 +78,84 @@ function AnalysisTab() {
         body="The Gates Foundation is seeking a creative partner for a 3-5 year multi-market campaign engaging new parents in the US, UK, and Germany. The real goal: generate visible public signals that make cutting development funding politically costly. This is an advocacy campaign wearing a brand campaign's clothes."
       />
 
+      {/* RFP Analysis */}
+      <Section
+        label="The Unspoken Need"
+        title="They need to depoliticize child survival — without looking like they&apos;re trying to depoliticize it."
+        content="The Gates Foundation has a credibility problem, not a message problem. In a post-COVID, polarized landscape, the Gates name itself is a barrier with segments of the target audience. That's why they emphasize 'new voices,' 'trusted champions,' and 'partner amplification' — they know they can't be the face of this."
+      />
+
+      <Section
+        label="The Reframe"
+        title="This isn&apos;t a &lsquo;save the children&rsquo; campaign. It&apos;s a &lsquo;what kind of parent do you want to be?&rsquo; campaign."
+        content="The brief frames this as getting new parents to care about other people's children. But the real opportunity is to frame child survival as part of your own parenting identity — that being a good parent means believing no child's life matters less than your child's. The shift is from charity to identity."
+      />
+
+      <Section
+        label="The Barrier"
+        title="New parents are in survival mode"
+        content="The gap between 'I care about all children' (a value almost everyone holds) and 'I will take action for children I'll never meet' (a behavior almost no one does) is massive. The barrier isn't apathy — it's overwhelm. Every day delivers a new crisis competing for the finite emotional bandwidth of an exhausted new parent."
+      />
+
+      {/* Win Strategy */}
+      <div className="rounded-2xl p-8" style={{ backgroundColor: 'var(--color-surface)', border: '1px solid var(--color-border)' }}>
+        <p className="text-xs uppercase tracking-[0.2em] mb-6" style={{ color: 'var(--color-accent)' }}>Win Strategy</p>
+        <div className="space-y-6">
+          <div>
+            <h4 className="text-base font-medium mb-2" style={{ color: 'var(--color-text)' }}>1. Identity, not charity</h4>
+            <p className="text-sm leading-relaxed" style={{ color: 'var(--color-text-secondary)' }}>Position child survival as a core expression of modern parenthood, not a donation ask. Parents don&apos;t want to be guilted — they want to feel like caring about all kids is simply what good parents do.</p>
+          </div>
+          <div>
+            <h4 className="text-base font-medium mb-2" style={{ color: 'var(--color-text)' }}>2. Culturally native, not campaign-imposed</h4>
+            <p className="text-sm leading-relaxed" style={{ color: 'var(--color-text-secondary)' }}>The idea has to live inside platforms, moments, and conversations new parents are already having — parenting apps, pediatrician offices, baby registries, parenting TikTok.</p>
+          </div>
+          <div>
+            <h4 className="text-base font-medium mb-2" style={{ color: 'var(--color-text)' }}>3. Designed to travel without the logo</h4>
+            <p className="text-sm leading-relaxed" style={{ color: 'var(--color-text-secondary)' }}>The most powerful thing the Foundation can do is build something bigger than itself. The creative idea should be ownable by parents, partners, and communities — with the Foundation as the engine, not the face.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Cultural Tensions */}
+      <div>
+        <p className="text-xs uppercase tracking-[0.2em] mb-4" style={{ color: 'var(--color-accent)' }}>Cultural Tensions</p>
+        <Table
+          headers={['Tension', 'Why It Matters']}
+          rows={[
+            ['My child vs. all children', 'New parents feel both intensely. The campaign must honor the personal while extending it to the universal.'],
+            ['Compassion vs. overwhelm', 'People want to care but are drowning in crises. The campaign must feel like oxygen, not another obligation.'],
+            ['Global values vs. local politics', 'Child survival is being politicized (foreign aid cuts, "America First"). The campaign must be uncancelable.'],
+            ['Institutional trust vs. grassroots', 'Gates Foundation is an institution. Parents trust other parents. The creative must bridge this gap.'],
+            ['Optimism vs. urgency', 'Child deaths are rising. But doom doesn\'t mobilize. The campaign needs "we can actually fix this" energy.'],
+          ]}
+        />
+      </div>
+
+      {/* Headwinds */}
+      <div className="rounded-2xl p-8" style={{ backgroundColor: 'var(--color-surface)', border: '1px solid var(--color-border)' }}>
+        <p className="text-xs uppercase tracking-[0.2em] mb-4" style={{ color: 'var(--color-accent-alt)' }}>Headwinds</p>
+        <ul className="space-y-3 text-sm leading-relaxed" style={{ color: 'var(--color-text-secondary)' }}>
+          <li><strong style={{ color: 'var(--color-text)' }}>Politicization of the Gates name.</strong> Conspiracy theories, vaccine skepticism, anti-globalist sentiment have made &ldquo;Gates Foundation&rdquo; a polarizing brand.</li>
+          <li><strong style={{ color: 'var(--color-text)' }}>Compassion fatigue + domestic anxiety.</strong> New parents are worried about affording their own childcare, not children in sub-Saharan Africa.</li>
+          <li><strong style={{ color: 'var(--color-text)' }}>Low salience of child mortality.</strong> Competing against inflation, climate, war, AI anxiety for attention.</li>
+          <li><strong style={{ color: 'var(--color-text)' }}>Fragmented media landscape.</strong> No single campaign moment will reach 40% of any audience. Sustained multi-channel effort required.</li>
+          <li><strong style={{ color: 'var(--color-text)' }}>3-5 year commitment.</strong> This isn&apos;t a project — it&apos;s a retainer requiring sustained senior talent.</li>
+        </ul>
+      </div>
+
+      {/* How Competitors Will Pitch */}
+      <div>
+        <p className="text-xs uppercase tracking-[0.2em] mb-4" style={{ color: 'var(--color-accent)' }}>How Competitors Will Likely Pitch</p>
+        <Table
+          headers={['Play', 'Why It Won\'t Win']}
+          rows={[
+            ['The "Every Child" manifesto film', 'Beautiful, award-worthy, forgettable within 6 months. This is the expected pitch.'],
+            ['Celebrity parent ambassador', 'Expensive, risky. The Foundation likely already has relationships they\'d prefer to leverage.'],
+            ['Data-shock / guilt play', 'The brief explicitly signals they want values, not policy. This approach feels like a lecture.'],
+          ]}
+        />
+      </div>
+
       {/* Client Team */}
       <div>
         <p className="text-xs uppercase tracking-[0.2em] mb-4" style={{ color: 'var(--color-accent)' }}>Client Team Map</p>
