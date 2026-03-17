@@ -159,18 +159,44 @@ Pressure-tested against 18 case studies spanning 40 years.
 
 ---
 
-## US STRATEGY WORK (Prior 72andSunny Engagement)
+## US STRATEGY WORK (Prior 72andSunny Engagement — Completed 2025)
 
-The US Strategy folder contains extensive prior work by 72andSunny for the Gates Foundation including:
-- Full audience profiles and segmentation (including "Pensive Patriots" segment)
-- Comms playbooks with channel strategies
-- SWOT analysis of the Foundation's positioning
-- Brand strategy territory workshops
-- Final marketing strategy deliverables (June 2025)
-- Implementation presentations
-- Growth audience development and territory workshops
+### SWOT Analysis
+**Strengths:** Science powerhouse with data-backed rigor. Small efforts = big impact (foreign aid <1% of US budget; polio vaccine 11 cents/dose; $1 = $54 saved). Local partnerships ensure cultural alignment. Three bipartisan messages: pandemic prevention, soft power/dominance, national security.
+**Weaknesses:** Complex academic language ("Global Disease Burden"). Very little public understanding of what GH programs fund. Perception of high-spend/inefficiency (opposite of reality). Billionaire skepticism (37% think billionaires are terrible role models; 49% negative feelings). Belief aid creates dependency (78% of voters). Gates name carries partisan baggage.
+**Three SWOT Imperatives:** (1) Move away from using Gates name in comms, (2) Debunk misperceptions head-on, (3) Break nonprofit marketing conventions.
 
-This prior relationship is a competitive advantage — we have institutional knowledge and existing trust with the Foundation team.
+### Audience 1: Pensive Patriots (33M Americans)
+**Who:** A18-44, patriotic, action-oriented. 53% male, 37% South, 31% conservative / 39% moderate / 30% liberal. Career-driven, status-seeking, thrill-seeking. Passion spaces: gaming, UFC/combat sports, outdoor adventure, sports betting.
+**Cultural Insight:** Crisis of young men — gender shift, economic shift (prime working-age men employment 96%→86%), technological isolation (2/3 of men 18-23 say "no one really knows me"). But a playbook is forming rooted in traditional masculinity: find a role model, improve strength, acquire skills, engage IRL, take pride in caring for someone else.
+**Strategic Brief:** REFRAME AID AS A MASCULINE STATUS SYMBOL. The ideology of being a Provider and Protector comes to life through Global Health.
+**Influencers:** Logan Paul, Jake Paul, Dana White, Dave Portnoy, Pat McAfee, Shannon Sharpe, Rob Gronkowski.
+**Comms Jobs:** (1) Mythbust — convince that funding global aid is in Americans' self-interest ($2-4M), (2) Redefine — capture modern provider/protector identity via sports/podcasts ($3-5M), (3) Recruit — give outlet for action via dating apps, fraternities, local sports ($1-2M).
+
+### Audience 2: Optimistic Doers (40M Americans)
+**Who:** A18-44, wired to be helpful, social-first. 54% female, 35% liberal / 39% moderate. Socially responsible, chronically online, health/wellness obsessed, purpose-driven travelers, friend group leaders.
+**Cultural Insight:** Disillusioned by a decade of traditional activism (Occupy, BLM, Women's March — "accomplished nothing"). Burned out and feeling powerless. But a new era of activism has emerged where fun and doing good aren't mutually exclusive.
+**Strategic Brief:** WEEKEND PLANS THAT WORK — Make supporting GH as easy and rewarding as a Saturday plan.
+**Comms Jobs:** (1) Jolt — eye-catching OOH + digital partnerships showing how little it takes to create massive change, (2) Serve up must-do weekend plans — events tied to passion points (yoga 230i, pickleball 178i, weight lifting 179i).
+
+### Key US Stats
+- Foreign aid = <1% of US federal budget
+- 62% of voters believe GH should be funded same or more
+- $1 spent = $54 saved in Gavi countries
+- $3 fully protects a child against polio
+- 61% decline in AIDS/TB/malaria death rate (Global Fund)
+- 1.1B children vaccinated since 2000 (Gavi)
+- 25M lives saved by PEPFAR
+
+### Operational Models Explored
+- **MANY (Coalition):** Alliance with multiple external parties. Broader reach, slower approval.
+- **DUO (One Brand Partner):** Leverage a brand's nonpartisan reach. Brand cred, but GF name more visible.
+- **SOLO (Unattributed Sub-Brand):** Like "Got Milk" or "He Gets Us." Full creative control, expensive, credibility risk if source revealed.
+
+### Canada Strategy
+Separate $300K/9-week engagement to replicate US methodology. Partner with CANWATCH, Bigger Than Our Borders, Cooperations Canada. Key question: branded vs. unbranded movement. Same audience-building methodology: start with must-have attribute (action-oriented), layer psychographics, size, then demographics.
+
+This prior relationship is a major competitive advantage — we have institutional knowledge, existing trust with the Foundation team, and deep audience data.
 
 ---
 
