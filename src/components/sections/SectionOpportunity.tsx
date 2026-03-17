@@ -21,20 +21,19 @@ export function SectionOpportunity() {
           className="reveal text-3xl md:text-5xl lg:text-6xl leading-[1.15] mb-12"
           style={{ fontFamily: 'var(--font-display)', color: 'var(--color-accent)' }}
         >
-          No one has done all five.
+          Invent the future of cause marketing.
         </h2>
 
         <div className="reveal space-y-6 text-lg leading-relaxed max-w-[600px] mx-auto" style={{ color: 'var(--color-text-secondary)' }}>
           <p>
-            The components exist in isolation. Movember nailed culture. Truth nailed the enemy.
+            No one has done all five. The components exist in isolation. Movember nailed culture. Truth nailed the enemy.
             Ice Bucket nailed winning. GivingTuesday nailed the movement model.
           </p>
           <p>
             But no one has assembled them into a single architecture.
           </p>
           <p style={{ color: 'var(--color-text)' }}>
-            The opportunity: invent the future of cause marketing by synthesizing
-            these lessons into a modern playbook. This is not incremental improvement.
+            Synthesize these lessons into a modern playbook. This is not incremental improvement.
             It&apos;s a new category.
           </p>
         </div>
