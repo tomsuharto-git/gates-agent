@@ -53,7 +53,7 @@ export function SectionWontWork() {
               </p>
               {/* Strikethrough on hover */}
               <div
-                className="absolute top-1/2 left-6 right-6 h-[2px] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"
+                className="absolute top-1/2 left-6 right-6 h-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                 style={{ backgroundColor: 'var(--color-accent-alt)' }}
               />
             </div>
