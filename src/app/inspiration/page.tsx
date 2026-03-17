@@ -267,7 +267,7 @@ function CaseCard({ study, cautionary }: { study: typeof caseStudies[0]; caution
             className="inline-flex items-center gap-2 text-xs font-medium transition-all hover:gap-3"
             style={{ color: 'var(--color-accent)' }}
           >
-            Full 7-lens analysis
+            Full case study
             <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>

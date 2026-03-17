@@ -176,7 +176,7 @@ export default function CaseStudyDetailPage() {
           {detail && (
             <div className="space-y-8 mb-16">
               <p className="text-xs tracking-[0.15em] uppercase" style={{ color: 'var(--color-accent)', fontWeight: 500 }}>
-                Seven-Lens Analysis
+                Full Analysis
               </p>
 
               {lensLabels.map((lens, i) => {
