@@ -93,7 +93,7 @@ function OnePager() {
           {[
             { num: '01', title: 'Center the relationship to kids.', desc: 'Identity, not obligation. New parents experience an empathy surge — make it claimable.' },
             { num: '02', title: 'Identify an enemy.', desc: 'Every movement needs something to fight. It must be bipartisan, clear, and specific.' },
-            { num: '03', title: 'Behave as culture.', desc: 'Show up in parenting apps, not nonprofit newsletters. If it looks like charity, you\'ve lost.' },
+            { num: '03', title: 'Behave as culture.', desc: 'Live inside entertainment, self-expression, and the things people already love — not as a cause asking them to care more.' },
             { num: '04', title: 'Make it feel like winning.', desc: 'Every level of engagement should feel like gaining, not losing. Fun, status, belonging.' },
             { num: '05', title: 'Build a movement, not a funnel.', desc: 'Concentric circles of commitment. Visible signals at every level that decision-makers can see.' },
           ].map((imp) => (
