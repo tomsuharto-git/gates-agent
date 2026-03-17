@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { caseStudies } from '@/data/case-studies';
 
 const imperativeLabels: Record<number, string> = {
@@ -197,10 +198,11 @@ export default function InspirationPage() {
 
 function CaseCard({ study, cautionary }: { study: typeof caseStudies[0]; cautionary?: boolean }) {
   const [expanded, setExpanded] = useState(false);
+  const router = useRouter();
 
   return (
     <div
-      className="p-6 rounded-xl border transition-all duration-200 cursor-pointer"
+      className="p-6 rounded-xl border transition-all duration-200 cursor-pointer group"
       style={{
         borderColor: cautionary ? 'rgba(199,93,58,0.2)' : 'var(--color-border)',
         backgroundColor: 'var(--color-surface)',
@@ -256,9 +258,20 @@ function CaseCard({ study, cautionary }: { study: typeof caseStudies[0]; caution
           </div>
 
           {/* Lesson */}
-          <p className="text-sm leading-relaxed" style={{ color: 'var(--color-text-secondary)' }}>
+          <p className="text-sm leading-relaxed mb-4" style={{ color: 'var(--color-text-secondary)' }}>
             {study.lesson}
           </p>
+
+          <button
+            onClick={(e) => { e.stopPropagation(); router.push(`/inspiration/${study.id}`); }}
+            className="inline-flex items-center gap-2 text-xs font-medium transition-all hover:gap-3"
+            style={{ color: 'var(--color-accent)' }}
+          >
+            Full 7-lens analysis
+            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </button>
         </div>
       )}
 
