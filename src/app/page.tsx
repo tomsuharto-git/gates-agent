@@ -6,9 +6,9 @@ import { ChatPanel } from '@/components/ChatPanel';
 
 const navLinks = [
   { href: '/', label: 'Chat', active: true },
+  { href: '/client-brief', label: 'Client Brief' },
   { href: '/creative-brief', label: 'Creative Brief' },
   { href: '/inspiration', label: 'Inspiration' },
-  { href: '/client-brief', label: 'Client Brief' },
 ];
 
 export default function Home() {

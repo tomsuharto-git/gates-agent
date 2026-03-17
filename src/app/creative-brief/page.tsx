@@ -15,9 +15,9 @@ import { SectionNext } from '@/components/sections/SectionNext';
 
 const navLinks = [
   { href: '/', label: 'Chat' },
+  { href: '/client-brief', label: 'Client Brief' },
   { href: '/creative-brief', label: 'Creative Brief', active: true },
   { href: '/inspiration', label: 'Inspiration' },
-  { href: '/client-brief', label: 'Client Brief' },
 ];
 
 export default function CreativeBrief() {

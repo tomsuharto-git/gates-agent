@@ -22,9 +22,9 @@ const imperativeColors: Record<number, string> = {
 
 const navLinks = [
   { href: '/', label: 'Chat' },
+  { href: '/client-brief', label: 'Client Brief' },
   { href: '/creative-brief', label: 'Creative Brief' },
   { href: '/inspiration', label: 'Inspiration', active: true },
-  { href: '/client-brief', label: 'Client Brief' },
 ];
 
 export default function InspirationPage() {
