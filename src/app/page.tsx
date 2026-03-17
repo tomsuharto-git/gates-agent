@@ -130,22 +130,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div>
-            <Link
-              href="/creative-brief"
-              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-medium transition-all duration-200 hover:scale-[1.02]"
-              style={{
-                backgroundColor: 'var(--color-surface)',
-                border: '1px solid var(--color-border)',
-                color: 'var(--color-accent)',
-              }}
-            >
-              View Creative Brief
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-          </div>
+          <div />
         </div>
 
         {/* Right: Chat */}
