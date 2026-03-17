@@ -11,6 +11,7 @@ interface WayIn {
   beats: string[];
   accentColor: string;
   bgGradient: string;
+  image: string;
 }
 
 const waysIn: WayIn[] = [
@@ -27,6 +28,7 @@ const waysIn: WayIn[] = [
     ],
     accentColor: '#E8C368',
     bgGradient: 'linear-gradient(135deg, rgba(232,195,104,0.06) 0%, rgba(15,15,15,0) 60%)',
+    image: '/images/01-parent-resource.png',
   },
   {
     number: 2,
@@ -41,6 +43,7 @@ const waysIn: WayIn[] = [
     ],
     accentColor: '#FF6B6B',
     bgGradient: 'linear-gradient(135deg, rgba(255,107,107,0.06) 0%, rgba(15,15,15,0) 60%)',
+    image: '/images/02-entertainment-engine.png',
   },
   {
     number: 3,
@@ -55,6 +58,7 @@ const waysIn: WayIn[] = [
     ],
     accentColor: '#6B9FFF',
     bgGradient: 'linear-gradient(135deg, rgba(107,159,255,0.06) 0%, rgba(15,15,15,0) 60%)',
+    image: '/images/03-vc-model.png',
   },
   {
     number: 4,
@@ -69,6 +73,7 @@ const waysIn: WayIn[] = [
     ],
     accentColor: '#FF9F43',
     bgGradient: 'linear-gradient(135deg, rgba(255,159,67,0.06) 0%, rgba(15,15,15,0) 60%)',
+    image: '/images/04-hype-for-help.png',
   },
   {
     number: 5,
@@ -83,6 +88,7 @@ const waysIn: WayIn[] = [
     ],
     accentColor: '#7ED6A4',
     bgGradient: 'linear-gradient(135deg, rgba(126,214,164,0.06) 0%, rgba(15,15,15,0) 60%)',
+    image: '/images/05-wonder-brand.png',
   },
   {
     number: 6,
@@ -97,6 +103,7 @@ const waysIn: WayIn[] = [
     ],
     accentColor: '#E8C368',
     bgGradient: 'linear-gradient(135deg, rgba(232,195,104,0.06) 0%, rgba(15,15,15,0) 60%)',
+    image: '/images/06-love-well.png',
   },
   {
     number: 7,
@@ -111,6 +118,7 @@ const waysIn: WayIn[] = [
     ],
     accentColor: '#FFD93D',
     bgGradient: 'linear-gradient(135deg, rgba(255,217,61,0.06) 0%, rgba(15,15,15,0) 60%)',
+    image: '/images/07-alive-at-5.png',
   },
   {
     number: 8,
@@ -125,6 +133,7 @@ const waysIn: WayIn[] = [
     ],
     accentColor: '#D4A0E8',
     bgGradient: 'linear-gradient(135deg, rgba(212,160,232,0.06) 0%, rgba(15,15,15,0) 60%)',
+    image: '/images/08-skincare-for-care.png',
   },
 ];
 
@@ -135,6 +144,16 @@ function WayInPanel({ way }: { way: WayIn }) {
       style={{ borderColor: 'var(--color-border)', background: way.bgGradient }}
     >
       <div className="max-w-[720px] mx-auto px-6">
+        {/* Image */}
+        <div className="mb-8 flex justify-center">
+          <img
+            src={way.image}
+            alt={way.name}
+            className="w-24 h-24 md:w-32 md:h-32 rounded-2xl object-cover"
+            style={{ border: `1px solid ${way.accentColor}20` }}
+          />
+        </div>
+
         <div className="flex items-baseline gap-4 mb-6">
           <span
             className="text-sm"
