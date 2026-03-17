@@ -99,11 +99,9 @@ export function ChatPanel() {
 
   return (
     <div className="flex-1 flex flex-col w-full">
-      <div className="flex-1 flex flex-col rounded-2xl overflow-hidden m-4 lg:m-6"
+      <div className="flex-1 flex flex-col overflow-hidden"
         style={{
           backgroundColor: 'var(--color-surface)',
-          border: `1px solid ${isFocused ? 'var(--color-accent)' : 'var(--color-border)'}`,
-          boxShadow: isFocused ? '0 0 0 3px rgba(232,195,104,0.1)' : 'none',
         }}
       >
         {/* Messages Area */}
