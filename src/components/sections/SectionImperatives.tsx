@@ -19,6 +19,7 @@ interface Imperative {
   number: number;
   title: string;
   subtitle: string;
+  description: string;
   icon: React.ComponentType<{ size?: number; className?: string }>;
   cases: CaseStudy[];
 }
@@ -28,6 +29,7 @@ const imperatives: Imperative[] = [
     number: 1,
     title: 'Center the relationship to kids.',
     subtitle: 'Everyone has one. It cuts across every divide. Start there.',
+    description: 'New parents experience an empathy surge — their instinct to protect ALL children spikes in the first years of parenthood. That\'s the entry point. The strategic job is to move that orientation from a passive feeling to a visible, claimable identity. Not "donate to help children" but "I\'m someone who believes every child deserves to reach five." Identity, not obligation.',
     icon: IconRelationship,
     cases: [
       {
@@ -44,6 +46,7 @@ const imperatives: Imperative[] = [
     number: 2,
     title: 'Identify an enemy.',
     subtitle: 'The brand needs something to fight. Pick one. Be laser-focused.',
+    description: 'Every successful movement brand has something it\'s AGAINST, not just something it\'s FOR. The enemy creates tension, urgency, and a reason to act now. It must be bipartisan — something no reasonable person would defend. Different creative territories may propose different enemies: preventability, indifference, the gap between caring and acting. The enemy can be loud or quiet. The clarity is not optional.',
     icon: IconEnemy,
     cases: [
       {
@@ -61,6 +64,7 @@ const imperatives: Imperative[] = [
     number: 3,
     title: 'Behave as culture.',
     subtitle: 'Show up where culture lives, not where causes live. If it looks like a charity, you\'ve already lost.',
+    description: 'People have an immune system for cause marketing — they spot it in milliseconds and scroll past. The brand must break that coding entirely. Show up in parenting apps, not nonprofit newsletters. Retail partnerships, not donation pages. Look like a brand, not a charity. Sound confident, not pleading. The energy of "join us" not "help them." If you removed all mention of child survival and it still looked like a cause ad, it fails.',
     icon: IconCulture,
     cases: [
       {
@@ -77,6 +81,7 @@ const imperatives: Imperative[] = [
     number: 4,
     title: 'Make it feel like winning.',
     subtitle: 'Don\'t ask for sacrifice. Align with how people already want to behave. Every level should be rewarding.',
+    description: 'The incentive architecture around causes is backwards — you give something and get almost nothing visible in return. Meanwhile, every other system in people\'s lives makes participation rewarding. Design every level of engagement to feel like gaining, not losing: social currency, belonging, fun, visible impact. The first action should cost almost nothing. But the ceiling is high for people who want to go deeper.',
     icon: IconWinning,
     cases: [
       {
@@ -93,6 +98,7 @@ const imperatives: Imperative[] = [
     number: 5,
     title: 'Build a movement, not a funnel.',
     subtitle: 'Concentric circles of commitment. Proof at every level. Signals decision-makers can see.',
+    description: 'The traditional funnel ends at a donation. The movement funnel is concentric circles: recognize, identify, signal, participate, advocate. Every circle generates visible signals — the outer circles create social data, the inner circles create the physical and political signals that decision-makers see. This is how you answer the Foundation\'s real KPI: public pressure that makes cutting development funding politically costly.',
     icon: IconMovement,
     cases: [
       {
@@ -164,6 +170,12 @@ function ImperativeBlock({ imp }: { imp: Imperative }) {
             style={{ fontFamily: 'var(--font-display)', color: 'var(--color-text-secondary)' }}
           >
             {imp.subtitle}
+          </p>
+          <p
+            className="text-[15px] leading-relaxed mt-4"
+            style={{ color: 'var(--color-text-secondary)' }}
+          >
+            {imp.description}
           </p>
         </div>
       </div>
