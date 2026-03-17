@@ -66,19 +66,6 @@ export function SectionNext() {
           ))}
         </div>
 
-        {/* Closing */}
-        <div
-          className="reveal p-8 md:p-12 rounded-xl text-center"
-          style={{ backgroundColor: 'var(--color-surface)' }}
-        >
-          <p className="text-2xl md:text-3xl leading-relaxed mb-4" style={{ fontFamily: 'var(--font-display)' }}>
-            No movement brand in history has scored A across all five imperatives.
-          </p>
-          <p className="text-lg" style={{ color: 'var(--color-accent)' }}>
-            That gap is the opportunity.
-          </p>
-        </div>
-
         {/* Footer */}
         <div className="reveal mt-24 pt-8 border-t text-center" style={{ borderColor: 'var(--color-border)' }}>
           <p className="text-sm" style={{ color: 'var(--color-text-secondary)', opacity: 0.4 }}>
