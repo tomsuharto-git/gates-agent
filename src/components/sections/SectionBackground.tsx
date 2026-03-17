@@ -10,11 +10,11 @@ const stats = [
 ];
 
 const costs = [
-  { item: 'ORS packet', cost: 'A few cents', impact: 'Prevents death from dehydration' },
-  { item: 'Bed net', cost: '$2', impact: 'Protects 2 people for 3–4 years' },
-  { item: 'Amoxicillin', cost: 'Under $1', impact: 'Cures most bacterial pneumonia' },
-  { item: 'Primary care', cost: '<$100/yr', impact: 'Prevents 90% of child deaths' },
-  { item: 'Immunization', cost: '$1 invested', impact: 'Returns $54' },
+  { item: 'ORS packet', cost: 'A few cents', impact: 'Prevents death from dehydration', deaths: '444,000 children/yr from diarrhea' },
+  { item: 'Bed net', cost: '$2', impact: 'Protects 2 people for 3–4 years', deaths: '434,000 children/yr from malaria' },
+  { item: 'Amoxicillin', cost: 'Under $1', impact: 'Cures most bacterial pneumonia', deaths: '740,000 children/yr from pneumonia' },
+  { item: 'Primary care', cost: '<$100/yr', impact: 'Prevents 90% of child deaths', deaths: '4.8M total under-5 deaths projected' },
+  { item: 'Immunization', cost: '$1 invested', impact: 'Returns $54', deaths: '1.5M children/yr from vaccine-preventable diseases' },
 ];
 
 export function SectionBackground() {
@@ -77,10 +77,10 @@ export function SectionBackground() {
             {costs.map((c) => (
               <div
                 key={c.item}
-                className="flex items-baseline gap-4 py-3 border-b"
+                className="flex flex-wrap items-baseline gap-x-4 gap-y-1 py-3 border-b"
                 style={{ borderColor: 'var(--color-border)' }}
               >
-                <span className="text-sm font-medium w-32 shrink-0" style={{ color: 'var(--color-text)' }}>
+                <span className="text-sm font-medium w-28 shrink-0" style={{ color: 'var(--color-text)' }}>
                   {c.item}
                 </span>
                 <span
@@ -89,8 +89,14 @@ export function SectionBackground() {
                 >
                   {c.cost}
                 </span>
-                <span className="text-sm" style={{ color: 'var(--color-text-secondary)' }}>
+                <span className="text-sm flex-1" style={{ color: 'var(--color-text-secondary)' }}>
                   {c.impact}
+                </span>
+                <span
+                  className="text-xs"
+                  style={{ fontFamily: 'var(--font-mono)', color: 'var(--color-accent-alt)' }}
+                >
+                  {c.deaths}
                 </span>
               </div>
             ))}
