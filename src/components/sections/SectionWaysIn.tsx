@@ -244,9 +244,14 @@ export function SectionWaysIn() {
           <p className="text-xs tracking-[0.15em] uppercase mb-8" style={{ color: 'var(--color-text-secondary)', opacity: 0.5 }}>
             All eight at a glance
           </p>
-          <div className="space-y-4">
+          <div className="space-y-5">
             {waysIn.map((way) => (
-              <div key={way.number} className="flex items-baseline gap-4">
+              <div key={way.number} className="flex items-center gap-4">
+                <img
+                  src={way.image}
+                  alt={way.name}
+                  className="w-10 h-10 rounded-lg object-cover shrink-0"
+                />
                 <span
                   className="text-sm shrink-0 w-6"
                   style={{ fontFamily: 'var(--font-mono)', color: way.accentColor, opacity: 0.5 }}
@@ -259,7 +264,7 @@ export function SectionWaysIn() {
                 >
                   {way.name}
                 </span>
-                <span className="text-sm leading-relaxed" style={{ color: 'var(--color-text-secondary)' }}>
+                <span className="text-sm leading-relaxed hidden md:inline" style={{ color: 'var(--color-text-secondary)' }}>
                   {way.pitch}
                 </span>
               </div>
