@@ -207,7 +207,13 @@ function CaseCard({ study, cautionary }: { study: typeof caseStudies[0]; caution
       }}
       onClick={() => setExpanded(!expanded)}
     >
-      <div className="flex items-start justify-between gap-4 mb-3">
+      <div className="flex items-start gap-4 mb-3">
+        <img
+          src={`/images/cs-${study.id}.png`}
+          alt={study.name}
+          className="w-12 h-12 rounded-lg object-cover shrink-0"
+        />
+        <div className="flex-1 flex items-start justify-between gap-4">
         <div>
           <h3 className="text-xl mb-1" style={{ fontFamily: 'var(--font-display)', color: cautionary ? 'var(--color-accent-alt)' : 'var(--color-text)' }}>
             {study.name}
@@ -227,6 +233,7 @@ function CaseCard({ study, cautionary }: { study: typeof caseStudies[0]; caution
             </span>
           ))}
         </div>
+      </div>
       </div>
 
       <p className="text-sm mb-4" style={{ color: 'var(--color-text-secondary)' }}>
