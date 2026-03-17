@@ -33,9 +33,9 @@ export function SectionBackground() {
         </div>
 
         <h2 className="reveal text-4xl md:text-5xl leading-tight mb-16" style={{ fontFamily: 'var(--font-display)' }}>
-          The Gates Foundation has committed{' '}
-          <span style={{ color: 'var(--color-accent)' }}>$200 billion</span> over 20 years
-          to ensure no child dies of a preventable cause before age 5.
+          The Gates Foundation will close its doors in 20 years.
+          Before it does, it wants to ensure{' '}
+          <span style={{ color: 'var(--color-accent)' }}>no child dies of a preventable cause before age 5.</span>
         </h2>
 
         <div className="reveal space-y-6 text-lg leading-relaxed mb-20" style={{ color: 'var(--color-text-secondary)' }}>
