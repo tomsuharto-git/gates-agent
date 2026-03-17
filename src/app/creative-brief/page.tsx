@@ -54,15 +54,19 @@ function OnePager() {
         ))}
       </div>
 
-      {/* The Belief */}
+      {/* The Problem */}
       <div className="mb-12">
         <h2 className="text-2xl md:text-3xl leading-tight mb-4" style={{ fontFamily: 'var(--font-display)' }}>
-          We believe there is enough love in the world to save every child.
+          The love is there. It&apos;s just not reaching the children who need it.
         </h2>
+        <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-text-secondary)' }}>
+          Every parent knows at a cellular level that a child dying is wrong. The instinct to protect children is universal — it cuts across politics, income, geography, religion.
+        </p>
+        <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-text-secondary)' }}>
+          But modern life buries it. Rent is due. Childcare costs are crushing. The news delivers five new crises before breakfast. New parents are in survival mode — even the ones who care deeply are at capacity. There&apos;s no room left for children dying in countries they&apos;ve never visited.
+        </p>
         <p className="text-base leading-relaxed" style={{ color: 'var(--color-text-secondary)' }}>
-          The instinct to protect children is universal. But between the love and the action,
-          five layers get in the way: proximity, overwhelm, broken infrastructure, invisible identity, and politics.
-          The Foundation&apos;s name itself has become polarizing — the brand can&apos;t be the face of the movement.
+          And when someone does feel the tug, the options are broken: donate to a foundation you&apos;ve vaguely heard of, share a sad post, sign a petition that vanishes. No visible identity for caring. No cultural signal. And the moment the issue gets coded as political — which it has — it divides the people who would otherwise agree. The Gates Foundation name itself has become polarizing. The brand can&apos;t be the face of the movement.
         </p>
       </div>
 
