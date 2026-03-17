@@ -52,6 +52,33 @@ export function SectionTask() {
               </p>
             </div>
           </div>
+
+          {/* Three cause brands that became culture */}
+          <div className="mt-16 pt-12 border-t max-w-[600px] mx-auto" style={{ borderColor: 'var(--color-border)' }}>
+            <p className="text-xs tracking-[0.15em] uppercase mb-8 text-center" style={{ color: 'var(--color-text-secondary)', opacity: 0.4 }}>
+              Three brands that did it
+            </p>
+            <div className="space-y-6 text-left">
+              <div className="flex gap-4">
+                <span className="text-sm font-medium shrink-0 w-28" style={{ color: 'var(--color-accent)' }}>Truth</span>
+                <p className="text-sm leading-relaxed" style={{ color: 'var(--color-text-secondary)' }}>
+                  Named the tobacco industry as the enemy. Became youth culture, not a PSA. 22% of youth smoking decline attributed. <span style={{ color: 'var(--color-accent)', opacity: 0.6 }}>72andSunny&apos;s &ldquo;Finish It&rdquo; era.</span>
+                </p>
+              </div>
+              <div className="flex gap-4">
+                <span className="text-sm font-medium shrink-0 w-28" style={{ color: 'var(--color-accent)' }}>Movember</span>
+                <p className="text-sm leading-relaxed" style={{ color: 'var(--color-text-secondary)' }}>
+                  The name IS culture. A fixture of November for 20+ years. It didn&apos;t interrupt culture with a prostate cancer message — it became the thing guys do in November.
+                </p>
+              </div>
+              <div className="flex gap-4">
+                <span className="text-sm font-medium shrink-0 w-28" style={{ color: 'var(--color-accent)' }}>(RED)</span>
+                <p className="text-sm leading-relaxed" style={{ color: 'var(--color-text-secondary)' }}>
+                  Embedded the cause inside commerce. You didn&apos;t donate — you bought a product you already wanted. $700M+ raised for the Global Fund. The cause rode inside the brand, not on top of it.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
