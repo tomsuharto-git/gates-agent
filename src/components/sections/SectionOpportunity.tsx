@@ -21,7 +21,7 @@ export function SectionOpportunity() {
           className="reveal text-3xl md:text-5xl lg:text-6xl leading-[1.15] mb-12"
           style={{ fontFamily: 'var(--font-display)', color: 'var(--color-accent)' }}
         >
-          Invent the future of cause marketing.
+          Invent the modern playbook for cause marketing.
         </h2>
 
         <div className="reveal space-y-6 text-lg leading-relaxed max-w-[600px] mx-auto" style={{ color: 'var(--color-text-secondary)' }}>
