@@ -16,7 +16,7 @@ interface WayIn {
 const waysIn: WayIn[] = [
   {
     number: 1,
-    name: 'The Overserve Model',
+    name: 'The Parent Resource',
     pitch: 'What if the best parenting support platform in the world also saved children\'s lives?',
     tone: 'Warm, competent, trustworthy',
     enemy: 'The broken infrastructure between caring and acting',
@@ -58,7 +58,7 @@ const waysIn: WayIn[] = [
   },
   {
     number: 4,
-    name: 'The Cult Brand',
+    name: 'Hype for Help',
     pitch: 'What if the mechanics of hype culture — drops, scarcity, heat — could be weaponized against the scarcity that kills children?',
     tone: 'Heat, provocative, unapologetic',
     enemy: 'The complacency that comes with cheap solutions no one sees',
@@ -72,21 +72,7 @@ const waysIn: WayIn[] = [
   },
   {
     number: 5,
-    name: 'The Negative Space',
-    pitch: 'What if the most powerful story about child survival never showed suffering at all — only what\'s missing?',
-    tone: 'Quiet, devastating, elegant',
-    enemy: 'The numbness that comes from showing suffering',
-    beats: [
-      '"For sale: baby shoes, never worn." Six words. No sad images. No statistics. What if the brand led with absence instead of presence — and that absence was the most devastating thing you\'d ever seen?',
-      'The empty chair at the table. The growth chart that stops at 18 months. The birthday cake with no one to blow out the candles. Every parent would feel it in their body.',
-      'It would put YOUR life in the frame. Not a distant child in a distant country — your own life with something missing. And every absence could be filled.',
-    ],
-    accentColor: '#A09890',
-    bgGradient: 'linear-gradient(135deg, rgba(160,152,144,0.04) 0%, rgba(15,15,15,0) 60%)',
-  },
-  {
-    number: 6,
-    name: 'The Childlike Way',
+    name: 'The Wonder Brand',
     pitch: 'What if saving children wasn\'t charity — but an investment in the perspective the world desperately needs?',
     tone: 'Wonder, joyful, radical simplicity',
     enemy: 'The adult systems that create the problems children die from',
@@ -99,7 +85,7 @@ const waysIn: WayIn[] = [
     bgGradient: 'linear-gradient(135deg, rgba(126,214,164,0.06) 0%, rgba(15,15,15,0) 60%)',
   },
   {
-    number: 7,
+    number: 6,
     name: 'Love Well',
     pitch: 'What if there\'s a well of love in this world deep enough to save every child — and all we need to do is prove it?',
     tone: 'Warm but not soft. Confident but not loud.',
@@ -113,7 +99,7 @@ const waysIn: WayIn[] = [
     bgGradient: 'linear-gradient(135deg, rgba(232,195,104,0.06) 0%, rgba(15,15,15,0) 60%)',
   },
   {
-    number: 8,
+    number: 7,
     name: 'Alive at 5',
     pitch: 'What if one number could organize an entire movement — the age, the time, the gesture, the price, the symbol?',
     tone: 'Bright, kinetic, universal',
@@ -127,8 +113,8 @@ const waysIn: WayIn[] = [
     bgGradient: 'linear-gradient(135deg, rgba(255,217,61,0.06) 0%, rgba(15,15,15,0) 60%)',
   },
   {
-    number: 9,
-    name: 'Care × Care',
+    number: 8,
+    name: 'Skincare for Care',
     pitch: 'What if your daily skincare routine — an act of care you already do twice a day — automatically funded essential care for children?',
     tone: 'Clean, elevated, ritual',
     enemy: 'The lie that self-care and other-care are opposites',
@@ -218,7 +204,7 @@ export function SectionWaysIn() {
         </div>
 
         <h2 className="reveal text-3xl md:text-4xl leading-tight mb-4" style={{ fontFamily: 'var(--font-display)' }}>
-          Nine ways in.
+          Eight ways in.
         </h2>
         <p className="reveal text-lg" style={{ color: 'var(--color-text-secondary)' }}>
           Not variations on a theme — fundamentally different theories of how the brand earns attention,
@@ -245,7 +231,7 @@ export function SectionWaysIn() {
             <span>Loud</span>
           </div>
           <div className="flex flex-wrap gap-3 mt-4 justify-center">
-            {['Negative Space', 'Love Well', 'Childlike Way', 'Care×Care', 'Overserve', 'Alive at 5', 'VC Model', 'Entertainment', 'Cult Brand'].map((name) => (
+            {['Love Well', 'Wonder Brand', 'Skincare for Care', 'Parent Resource', 'Alive at 5', 'VC Model', 'Entertainment', 'Hype for Help'].map((name) => (
               <span
                 key={name}
                 className="text-[10px] tracking-wider uppercase px-2 py-1 rounded"
