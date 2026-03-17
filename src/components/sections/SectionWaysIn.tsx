@@ -219,6 +219,36 @@ export function SectionWaysIn() {
         ))}
       </div>
 
+      {/* Summary grid */}
+      <div className="reveal max-w-[800px] mx-auto px-6 mt-24">
+        <div className="py-12 border-t" style={{ borderColor: 'var(--color-border)' }}>
+          <p className="text-xs tracking-[0.15em] uppercase mb-8" style={{ color: 'var(--color-text-secondary)', opacity: 0.5 }}>
+            All eight at a glance
+          </p>
+          <div className="space-y-4">
+            {waysIn.map((way) => (
+              <div key={way.number} className="flex items-baseline gap-4">
+                <span
+                  className="text-sm shrink-0 w-6"
+                  style={{ fontFamily: 'var(--font-mono)', color: way.accentColor, opacity: 0.5 }}
+                >
+                  {String(way.number).padStart(2, '0')}
+                </span>
+                <span
+                  className="text-base font-medium shrink-0 w-48"
+                  style={{ fontFamily: 'var(--font-display)', color: way.accentColor }}
+                >
+                  {way.name}
+                </span>
+                <span className="text-sm leading-relaxed" style={{ color: 'var(--color-text-secondary)' }}>
+                  {way.pitch}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
     </section>
   );
 }
