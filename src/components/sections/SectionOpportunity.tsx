@@ -11,7 +11,7 @@ export function SectionOpportunity() {
         <div className="reveal">
           <span
             className="text-[11px] tracking-[0.2em] uppercase block mb-16"
-            style={{ color: 'var(--color-text-secondary)', fontFamily: 'var(--font-body)', fontWeight: 500 }}
+            style={{ color: 'var(--color-accent)', fontFamily: 'var(--font-body)', fontWeight: 500 }}
           >
             Opportunity
           </span>
