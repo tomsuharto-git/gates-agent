@@ -24,6 +24,7 @@ const navLinks = [
   { href: '/', label: 'Chat' },
   { href: '/creative-brief', label: 'Creative Brief' },
   { href: '/inspiration', label: 'Inspiration', active: true },
+  { href: '/client-brief', label: 'Client Brief' },
 ];
 
 export default function InspirationPage() {
