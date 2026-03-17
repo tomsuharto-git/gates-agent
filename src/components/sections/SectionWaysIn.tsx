@@ -218,7 +218,7 @@ export function SectionWaysIn() {
         </div>
 
         <h2 className="reveal text-3xl md:text-4xl leading-tight mb-4" style={{ fontFamily: 'var(--font-display)' }}>
-          Nine creative territories.
+          Nine ways in.
         </h2>
         <p className="reveal text-lg" style={{ color: 'var(--color-text-secondary)' }}>
           Not variations on a theme — fundamentally different theories of how the brand earns attention,

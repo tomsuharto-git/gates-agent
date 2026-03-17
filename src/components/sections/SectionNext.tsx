@@ -30,7 +30,7 @@ export function SectionNext() {
 
         <p className="reveal text-lg mb-16" style={{ color: 'var(--color-text-secondary)' }}>
           Which of these directions excites you? Where should we go deeper?
-          The strategy is the foundation. The creative territories are starting positions, not final answers.
+          The strategy is the foundation. The ways in are starting positions, not final answers.
         </p>
 
         {/* Timeline */}

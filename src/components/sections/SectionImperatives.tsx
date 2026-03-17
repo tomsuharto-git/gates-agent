@@ -46,7 +46,7 @@ const imperatives: Imperative[] = [
     number: 2,
     title: 'Identify an enemy.',
     subtitle: 'The brand needs something to fight. Pick one. Be laser-focused.',
-    description: 'Every successful movement brand has something it\'s AGAINST, not just something it\'s FOR. The enemy creates tension, urgency, and a reason to act now. It must be bipartisan — something no reasonable person would defend. Different creative territories may propose different enemies: preventability, indifference, the gap between caring and acting. The enemy can be loud or quiet. The clarity is not optional.',
+    description: 'Every successful movement brand has something it\'s AGAINST, not just something it\'s FOR. The enemy creates tension, urgency, and a reason to act now. It must be bipartisan — something no reasonable person would defend. Different ways in may propose different enemies: preventability, indifference, the gap between caring and acting. The enemy can be loud or quiet. The clarity is not optional.',
     icon: IconEnemy,
     cases: [
       {
