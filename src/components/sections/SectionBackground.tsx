@@ -34,14 +34,14 @@ export function SectionBackground() {
 
         <h2 className="reveal text-4xl md:text-5xl leading-tight mb-16" style={{ fontFamily: 'var(--font-display)' }}>
           The Gates Foundation has committed{' '}
-          <span style={{ color: 'var(--color-accent)' }}>$200 billion</span> over 20 years to three goals.
-          Goal #1: No child dies of a preventable cause before age 5.
+          <span style={{ color: 'var(--color-accent)' }}>$200 billion</span> over 20 years
+          to ensure no child dies of a preventable cause before age 5.
         </h2>
 
         <div className="reveal space-y-6 text-lg leading-relaxed mb-20" style={{ color: 'var(--color-text-secondary)' }}>
           <p>
             From 2000 to 2020, child mortality was cut in half — 10 million annual deaths down to 5 million.
-            That progress was financed: GAVI, vaccines, bed nets, ORS, skilled birth attendance.
+            That progress was financed: GAVI, vaccines, bed nets, ORS (oral rehydration salts — pennies per dose), skilled birth attendance.
           </p>
           <p>
             For the first time this century, child deaths are projected to{' '}
