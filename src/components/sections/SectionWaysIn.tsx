@@ -219,30 +219,6 @@ export function SectionWaysIn() {
         ))}
       </div>
 
-      {/* Tonal spectrum */}
-      <div className="reveal max-w-[720px] mx-auto px-6 mt-20">
-        <div className="py-8 border-t border-b" style={{ borderColor: 'var(--color-border)' }}>
-          <p className="text-xs tracking-wider uppercase mb-6" style={{ color: 'var(--color-text-secondary)', opacity: 0.5 }}>
-            Tonal spectrum
-          </p>
-          <div className="flex items-center justify-between text-xs" style={{ color: 'var(--color-text-secondary)' }}>
-            <span>Quiet</span>
-            <div className="flex-1 mx-4 h-px" style={{ background: 'linear-gradient(to right, #A09890, #E8C368, #FF6B6B)' }} />
-            <span>Loud</span>
-          </div>
-          <div className="flex flex-wrap gap-3 mt-4 justify-center">
-            {['Love Well', 'Wonder Brand', 'Skincare for Care', 'Parent Resource', 'Alive at 5', 'VC Model', 'Entertainment', 'Hype for Help'].map((name) => (
-              <span
-                key={name}
-                className="text-[10px] tracking-wider uppercase px-2 py-1 rounded"
-                style={{ color: 'var(--color-text-secondary)', backgroundColor: 'var(--color-surface)' }}
-              >
-                {name}
-              </span>
-            ))}
-          </div>
-        </div>
-      </div>
     </section>
   );
 }
