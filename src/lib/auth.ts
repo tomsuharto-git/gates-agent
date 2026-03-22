@@ -1,5 +1,6 @@
 import NextAuth from 'next-auth';
 import MicrosoftEntraID from 'next-auth/providers/microsoft-entra-id';
+import Google from 'next-auth/providers/google';
 import { authConfig } from './auth.config';
 
 const tenantId = process.env.AZURE_AD_TENANT_ID?.trim();
@@ -7,7 +8,9 @@ const azureClientId = process.env.AZURE_AD_CLIENT_ID?.trim();
 const azureClientSecret = process.env.AZURE_AD_CLIENT_SECRET?.trim();
 
 const allowedDomains = ['hechostudios.com'];
-const allowedEmails: string[] = [];
+const allowedEmails: string[] = [
+  'mail@keesbakker.studio',
+];
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
   ...authConfig,
@@ -21,6 +24,10 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           scope: 'openid profile email User.Read',
         },
       },
+    }),
+    Google({
+      clientId: process.env.GOOGLE_CLIENT_ID!,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
     }),
   ],
   session: {
