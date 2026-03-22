@@ -10,6 +10,7 @@ const azureClientSecret = process.env.AZURE_AD_CLIENT_SECRET?.trim();
 const allowedDomains = ['hechostudios.com'];
 const allowedEmails: string[] = [
   'mail@keesbakker.studio',
+  'tomsuharto@gmail.com',
 ];
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
