@@ -6,6 +6,8 @@ import { authConfig } from './auth.config';
 const tenantId = process.env.AZURE_AD_TENANT_ID?.trim();
 const azureClientId = process.env.AZURE_AD_CLIENT_ID?.trim();
 const azureClientSecret = process.env.AZURE_AD_CLIENT_SECRET?.trim();
+const googleClientId = process.env.GOOGLE_CLIENT_ID?.trim();
+const googleClientSecret = process.env.GOOGLE_CLIENT_SECRET?.trim();
 
 const allowedDomains = ['hechostudios.com'];
 const allowedEmails: string[] = [
@@ -26,10 +28,9 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         },
       },
     }),
-    Google({
-      clientId: process.env.GOOGLE_CLIENT_ID?.trim()!,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET?.trim()!,
-    }),
+    ...(googleClientId && googleClientSecret
+      ? [Google({ clientId: googleClientId, clientSecret: googleClientSecret })]
+      : []),
   ],
   session: {
     strategy: 'jwt',
