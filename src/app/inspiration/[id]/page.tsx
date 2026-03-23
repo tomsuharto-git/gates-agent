@@ -45,6 +45,7 @@ const navLinks = [
   { href: '/client-brief', label: 'Client Brief' },
   { href: '/creative-brief', label: 'Creative Brief' },
   { href: '/inspiration', label: 'Inspiration' },
+  { href: '/influencers', label: 'Influencers' },
 ];
 
 export default function CaseStudyDetailPage() {

@@ -18,6 +18,7 @@ const navLinks = [
   { href: '/client-brief', label: 'Client Brief' },
   { href: '/creative-brief', label: 'Creative Brief', active: true },
   { href: '/inspiration', label: 'Inspiration' },
+  { href: '/influencers', label: 'Influencers' },
 ];
 
 function OnePager() {

@@ -10,6 +10,7 @@ const navLinks = [
   { href: '/client-brief', label: 'Client Brief', active: true },
   { href: '/creative-brief', label: 'Creative Brief' },
   { href: '/inspiration', label: 'Inspiration' },
+  { href: '/influencers', label: 'Influencers' },
 ];
 
 function Section({ label, title, content }: { label: string; title: string; content: string }) {
