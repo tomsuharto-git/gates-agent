@@ -48,8 +48,8 @@ const imperatives: Imperative[] = [
       },
     ],
     takeaway: {
-      headline: 'Tap the empathy surge.',
-      description: 'New parents experience a biological spike in their instinct to protect ALL children. That\'s the entry point. Move it from a passive feeling to a visible, claimable identity. Not "donate to help children" but "I\'m someone who believes every child deserves to reach five." Identity, not obligation.',
+      headline: 'Center the relationship to kids.',
+      description: 'New parents experience a biological spike in their instinct to protect ALL children — tap that empathy surge. Move it from a passive feeling to a visible, claimable identity. Not "donate to help children" but "I\'m someone who believes every child deserves to reach five." Identity, not obligation.',
     },
   },
   {
