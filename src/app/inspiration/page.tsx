@@ -27,6 +27,7 @@ const navLinks = [
   { href: '/creative-brief', label: 'Creative Brief' },
   { href: '/inspiration', label: 'Inspiration', active: true },
   { href: '/influencers', label: 'Influencers' },
+  { href: '/parent-culture', label: 'Parent Culture' },
 ];
 
 export default function InspirationPage() {

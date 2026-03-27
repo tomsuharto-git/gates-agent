@@ -11,6 +11,7 @@ const navLinks = [
   { href: '/creative-brief', label: 'Creative Brief' },
   { href: '/inspiration', label: 'Inspiration' },
   { href: '/influencers', label: 'Influencers', active: true },
+  { href: '/parent-culture', label: 'Parent Culture' },
 ];
 
 interface Influencer {

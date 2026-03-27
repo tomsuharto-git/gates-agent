@@ -11,6 +11,7 @@ const navLinks = [
   { href: '/creative-brief', label: 'Creative Brief' },
   { href: '/inspiration', label: 'Inspiration' },
   { href: '/influencers', label: 'Influencers' },
+  { href: '/parent-culture', label: 'Parent Culture' },
 ];
 
 function Section({ label, title, content }: { label: string; title: string; content: string }) {
